@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=0.1, width=device-width" />   
+    
+       
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    
+    
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB" crossorigin="anonymous"></script>
+    
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
+    
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap-reboot.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    
+    <script type="text/javascript">
+        
+    </script>
+
+    
+    <title>Penrith Observatory</title>
+   
+</head>
+
+<body>
+   
+   <!-- --------------------------------------------------------NAVBAR------------------------------------------------------------- -->
+    
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <a class="navbar-brand" href="#" onclick="hideAllDivs();showDiv('appHomeDiv');"><img src="img/WSULogo.png"> Penrith Observatory</a>
+      <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="hideAllDivs();showDiv('skyEventsDiv');">Sky Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="hideAllDivs();showDiv('observatoryEventsDiv');">Observatory Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="hideAllDivs();showDiv('galleryDiv');">Gallery</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Other Programs</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown02">
+              <a class="dropdown-item" href="#" onclick="hideAllDivs();showDiv('schoolProgramsDiv');">School Programs</a>
+              
+              <a class="dropdown-item" href="#" onclick="hideAllDivs();showDiv('groupProgramsDiv');">Group Programs</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Information</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#" onclick="hideAllDivs();showDiv('aboutDiv');">About</a>
+              
+              <a class="dropdown-item" href="#" onclick="hideAllDivs();showDiv('bookingsDiv');">Bookings</a>
+              <a class="dropdown-item" href="#" onclick="hideAllDivs();showDiv('LAP');">Location and Parking</a>
+              <a class="dropdown-item" href="#" onclick="hideAllDivs();showDiv('contactDiv');">Contact</a>
+            </div>
+          </li>
+        </ul>
+        
+      </div>
+    </nav>
+    
+    
+    
+    <!-- --------------------------------------------------------------------------------------------Page Contents--------------------------------------------------------------------------------------------- -->
+    
+    <div id="contentDivs">
+    
+    <!-- ------------------------------------------------------App Home------------------------------------------------ --> 
+    
+    <div class="appHomeDiv">
+    
+                <div class="slick-carousel">
+              <div>
+                  <a href="#" onclick="hideAllDivs();showDiv('observatoryEventsDiv');">
+                    <img src="https://www.westernsydney.edu.au/__data/assets/image/0005/1444280/Astronomy-night-Saturday-8-September-2018.jpg"  alt="Astronomy Night 8 September 2018">
+                  </a>
+              </div>
+              <div>
+                  <a href="#" onclick="hideAllDivs();showDiv('observatoryEventsDiv');">
+                    <img src="https://www.westernsydney.edu.au/__data/assets/image/0006/1444281/Astronomy-night-Saturday-22-September-2018.jpg" alt="Astronomy Night 22 September 2018">
+                  </a>
+              </div>
+              <div>
+                  <a href="#" onclick="hideAllDivs();showDiv('observatoryEventsDiv');">
+                    <img src="https://www.westernsydney.edu.au/__data/assets/image/0003/1433154/Astronomy-night-Saturday-25-August-2018.jpg" alt="Astronomy Night 25 August 2018">
+                  </a>
+              </div> 
+            </div>
+
+
+                <h4>Visit Penrith Observatory</h4>
+
+
+            <div style="position:relative;padding-top:56.25%;">
+              <iframe src="https://www.youtube.com/embed/5eb8rWJ_huQ" frameborder="0" allowfullscreen
+                style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+            </div>
+
+
+            <a role="button" class="btn btn-block" href="#" onclick="hideAllDivs();showDiv('observatoryEventsDiv');">See What's On &nbsp;<i class="fas fa-arrow-circle-right"></i></a>
+        
+    
+    </div>
+<!-- ------------------------------------------------------/App Home------------------------------------------------ -->
+
+
+ 
+<!-- ------------------------------------------------------Sky Events------------------------------------------------ -->  
+    
+    
+    <div class="skyEventsDiv">
+       
+       
+        <div class="container text-left" id="top-padded">
+           <h3>August 2018</h3>
+            <div class= "events main">
+                <a href="#" onclick="hideAllDivs();showDiv('SED');" style="text-decoration:none;">Partial Solar Eclipse</a>
+                <p>Thursday 30 August</p>
+            </div>
+
+            <h3>September 2018</h3>
+            <div class= "events main1">
+                <a href="#" onclick="hideAllDivs();showDiv('SED');" style="text-decoration:none;">New Moon</a>
+                <p>Monday 03 September</p>
+            </div>
+
+
+            <div class= "events main2">
+                <a href="#" onclick="hideAllDivs();showDiv('SED');" style="text-decoration:none;">Perseids Meteor Shower</a>
+                <p>Friday 07 September</p>
+            </div>
+            
+            
+            
+        </div>    
+        
+        <div id="output"></div> 
+
+    </div>              
+<!-- ------------------------------------------------------/Sky Events------------------------------------------------ -->
+
+
+
+
+<!-- ------------------------------------------------------Sky Events Description------------------------------------------------ -->
+
+<div class="SED">
+    
+     <div class="container text-left" id="top-padded">
+      
+    <h1>PARTIAL SOLAR ECLIPSE</h1>
+        
+        <h3>WHEN</h3>
+        <p>30 August 2018(+1000 UTC)</p>
+        
+        <h3>Details</h3>
+        <p>A partial solar eclipse occurs when the Moon covers only a part of the Sun, sometimes resembling a bite taken outof a cookie. A partial solar eclipse can only be safely observed with a special solar filter or by looking at the Sun's reflection. The partial eclipse will be visible in parts of northern and eastern Asia. It will be best seen in northern Russia with 68% coverage.</p>
+       
+    </div>
+    
+</div>
+
+<!-- ------------------------------------------------------/Sky Events Description------------------------------------------------ -->
+
+
+
+
+<!-- ------------------------------------------------------Observatory Events------------------------------------------------ -->  
+             
+    <div class="observatoryEventsDiv">
+                                                                                                                                
+        <div class="container text-left" id="top-padded">
+            
+            
+           <h3>August 2018</h3>
+            <div class= "events main">
+                <a href="#" onclick="hideAllDivs();showDiv('OED');" style="text-decoration:none;">Astronomy night</a>
+                <p>Friday 31 August</p>
+            </div>
+        
+        <h3>September 2018</h3>
+        <div class= "events main1">
+            <a href="#" onclick="hideAllDivs();showDiv('OED');" style="text-decoration:none;">Hands On Workshop</a>
+            <p>Saturday 08 September</p>
+        </div>
+        
+        </div>   
+        
+         
+         
+    </div>                                                                             
+<!-- ------------------------------------------------------/Observatory Events------------------------------------------------ --> 
+                                            
+                                                 
+                                                      
+                                                                
+                                             
+
+<!-- ------------------------------------------------------Observatory Events Description------------------------------------------------ --> 
+
+<div class="OED">
+    
+        <div class="container text-left" id="top-padded">
+        
+                <h1>ASTRONOMY NIGHT</h1>
+        <h3>WHEN</h3>
+        <p>Friday 31 August 2018</p>
+        
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button >Click</button>
+        
+        <h3>START TIME</h3>
+        <P>07:00 PM</P>
+        <h3>DETAILS</h3>
+        <P>Astronomy Night - Stars, Supernova, & the size of the Universe Dr Luke Bozzetto Come and explore the life-cycle of stars, from their birth all the way to their deaths - in some cases the cataclysmic explosion known as a supernova. Followed by a journey through the Universe - starting from our position on Earth we will explore our surrounding by travelling outward to gain some perspective of the vast space that we live in. Includes presentation, short 3D movie, tour of the dome and viewing of the night sky through a range of telescopes (weather permitting).</P>
+        
+    </div>
+    
+</div>
+
+<!-- ------------------------------------------------------/Observatory Events Description------------------------------------------------ -->
+
+
+
+
+
+
+<!-- ------------------------------------------------------Gallery------------------------------------------------ -->  
+
+<div class="galleryDiv">
+    
+         <div class="slick-carousel">
+  <div>
+      <a href="">
+        <img src="img/gallery1.gif" alt="gallery1">
+      </a>
+  </div>
+  <div>
+      <a href="">
+        <img src="img/gallery2.jpg" alt="gallery2">
+      </a>
+  </div>
+  <div>
+      <a href="">
+        <img src="img/gallery3.jpeg" alt="gallery3">
+      </a>
+  </div> 
+
+    <div>
+      <a href="">
+        <img src="img/gallery4.jpeg" alt="gallery4">
+      </a>
+  </div> 
+
+
+    </div>
+    
+</div>
+
+<!-- ------------------------------------------------------/Gallery------------------------------------------------ -->
+
+
+
+<!-- ------------------------------------------------------School Programs------------------------------------------------ -->
+
+<div class="schoolProgramsDiv">
+    
+     <div class="slick-carousel">
+  <div>
+      <a href="">
+        <img src="https://www.westernsydney.edu.au/__data/assets/image/0011/520778/NSe_210813_001.jpg"  alt="Observatory Telescope Presentation">
+      </a>
+  </div>
+  <div>
+      <a href="">
+        <img src="https://www.westernsydney.edu.au/__data/assets/image/0003/520779/NSe_210813_003.jpg"  alt="Student at Observatory">
+      </a>
+  </div>
+  <div>
+      <a href="">
+        <img src="https://www.westernsydney.edu.au/__data/assets/image/0004/520780/NSe_210813_004.jpg"  alt="Student looking through telescope at Observatory">
+      </a>
+  </div> 
+
+    <div>
+      <a href="">
+        <img src="https://www.westernsydney.edu.au/__data/assets/image/0005/520781/NSe_210813_025.jpg"  alt="Observatory Telescope Presentation">
+      </a>
+  </div> 
+
+    <div>
+      <a href="">
+        <img src="https://www.westernsydney.edu.au/__data/assets/image/0006/520782/NSe_210813_035.jpg"  alt="Observatory Telescope Door Opening">
+      </a>
+  </div> 
+
+<div>
+      <a href="">
+        <img src="https://www.westernsydney.edu.au/__data/assets/image/0007/520783/NSe_210813_042.jpg"  alt="3D Experience at the Observatory">
+      </a>
+  </div> 
+
+<div>
+      <a href="">
+        <img src="https://www.westernsydney.edu.au/__data/assets/image/0008/520784/STb300713_023.jpg"  alt="The UWS Observatory">
+      </a>
+  </div> 
+
+<div>
+      <a href="">
+        <img src="https://www.westernsydney.edu.au/__data/assets/image/0009/520785/NSe_210813_021.jpg"  alt="Students on Computer at Observatory">
+      </a>
+  </div> 
+
+    </div>  
+    
+    <div class="container text-left">
+       
+
+
+<p>The Western Sydney University Penrith Observatory has programs designed to enhance and extend learning in astronomy and space science for school students from K-12. Excursions can be arranged for either daytime or evenings and typically last for two hours.</p>
+    
+
+<div><p><strong>Programs for K &ndash; 6:</strong></p><ul><li>Science and Technology including Physical Phenomena and Earth and its Surroundings.</li><li>The Sun, our Solar System and an investigation into local phenomena such as lunar cycles and seasons.</li></ul></div><div><p><strong>Programs for 7 &ndash; 10:</strong></p><ul><li>Science including energy, chemistry and physical forces within an astronomical context and a detailed look at what we have observed in our Universe.</li></ul></div><div><p><strong>Programs for 11 &ndash; 12:</strong></p><ul><li>HSC physics units Cosmic Engine, Space and Astrophysics come alive with an in depth exploration the lives of stars, the effects of gravity and how we investigate and measure our universe.</li></ul></div><h2>School Day Visits</h2><div>The Western Sydney University Penrith Observatory is open for booked school visits from Monday to Friday during school terms. Basic programs involve a visual presentation, a 3D astronomy movie, a special tour of the dome area and 0.6m telescope, safe viewing of the sun with appropriately filtered telescopes and activities designed to entertain as well as reinforce the key concepts.</div><h2>School Night Visits</h2><div>A night visit will provide an opportunity to view a variety of celestial objects through the University's 0.6m and 0.25m telescopes. These nights will also include a multimedia presentation and a 3D astronomy movie.</div><div>All school programs can be tailored to suit individual needs.&nbsp;&nbsp;Bookings are essential for all visits and are held regardless of the weather.</div><h2>How to make a booking</h2><div>To make a booking call (02) 4736 0135 (Tuesday, Wednesday or Thursday), or email Raelene Sommer(r.sommer@westernsydney.edu.au)</div><p>If you are not sure about making a booking, we are happy to come to your school and have a short information session with teachers to provide an overview of the program and answer your questions. Please email Raelene Sommer </p><h2>Cost of a Basic Program</h2><div><ul><li>$400 minimum cost</li><li>$12 per person</li><li>Teachers and helpers are free (2 teachers per 20 students)</li><li>Invoices will be issued on the day/night of your visit</li></ul></div>       
+        
+</div>
+    
+</div>
+
+<!-- ------------------------------------------------------/School Programs------------------------------------------------ --> 
+
+                                              
+                                                                                            
+                                                                                                                                                                                        
+<!-- ------------------------------------------------------Group Programs------------------------------------------------ --> 
+
+<div class="groupProgramsDiv">
+    
+    <div class="container text-left" id="top-padded">
+
+<p>The Western Sydney University Penrith Observatory is open to the public and runs special groups programs that can be tailored to suit individual needs. Excursions can be arranged for either daytime or evenings and typically last for two hours. We run specialised programs for -</p><ul><li>Vacation care groups</li><li>Cub and Scouts</li><li>Girl guides</li><li>Community groups</li><li>Seniors groups</li></ul><h2>Group Day Visits</h2><p>The Western Sydney University Penrith Observatory is open for booked visits on weekdays and weekends.&nbsp;&nbsp;Basic programs involve a visual presentation, a 3D astronomy movie, a special tour of the dome area and 0.6m telescope, safe viewing of the sun with appropriately filtered telescopes.</p><h2>Group Night Visits</h2><p>A night visit will provide an opportunity to view a variety of celestial objects through the University's 0.6m and 0.25m telescopes. These nights will also include a multimedia presentation and a 3D astronomy movie.</p><p>Bookings are essential for all visits and programs run regardless of the weather.</p><h2>How to make a booking</h2><p>To make a booking, call (02) 4736 0135 (Tuesday, Wednesday or Thursday), or email <a href="mailto:r.sommer@westernsydney.edu.au?subject=group%20booking%20enquiry">Raelene Sommer</a>.</p><h2>Cost of a basic program</h2><ul><li>$12 per person</li><li>Minimum cost $400</li><li>Maximum group size: 95 people</li></ul>
+ 
+    </div>
+    
+</div>
+
+<!-- ------------------------------------------------------/Group Programs------------------------------------------------ -->
+
+<!-- ------------------------------------------------------About------------------------------------------------ -->
+
+ <div class="aboutDiv">
+     
+     <div class="container text-left" id="top-padded">
+
+      	
+	<img id="logo" src="img/Uni.jpg" alt="Uni" height=auto width=100%>
+	
+        <div>
+            
+      <p>The Western Sydney University Penrith Observatory is located on the Werrington North Campus of the Western Sydney University just off the Great Western Highway.
+      </p>
+      <p>The Penrith Observatory is part of the School of Computing Engineering and Mathematics and is operated by a dedicated team of volunteer staff and students that are part of the Astrophysical eScience Laboratory (
+        <a href="https://www.westernsydney.edu.au/observatorypenrith/penrith_observatory/wscdl">AeSciL
+        </a>).
+      </p>
+      <p>At the Penrith Observatory 
+        <a href="https://www.westernsydney.edu.au/observatorypenrith/penrith_observatory/wscdl">AeSciL
+        </a> members conduct engagement and outreach programs that include astronomy nights and workshops for the public and for primary and secondary schools. The astronomy nights and workshops are designed to enhance and extend teaching and learning in Science, Technology, Engineering &amp; Mathematics (STEM) via astronomy and space science. The group also provides teacher workshops, and specialised group programs.
+      </p>
+      <p>A visit to the Penrith Observatory can include listening to fascinating talks on various aspects of Astronomy and/or STEM given by some of Australia's most eminent and internationally recognised astronomers, physicists and engineers, a 3D astronomy movie, and viewing of the night or day sky through the observatories various telescopes including the main 0.6 m telescope (weather permitting).
+      </p>
+    </div>
+     
+        
+</div>
+     
+ </div>
+   
+<!-- ------------------------------------------------------/About------------------------------------------------ --> 
+
+<!-- ------------------------------------------------------Bookings------------------------------------------------ -->
+
+ <div class="bookingsDiv">
+     
+     <div class="container text-left" id="top-padded">
+       
+
+<p><strong>Cost for Public Astronomy Nights</strong>:<br />$18.00 Adult<br />$12.00 Child/Concession<br />$50.00 Family (2 adults + 2 children), children under 3 years of age free.<br /></p><p>Current Western Sydney University staff, students and Alumni are entitled to a Concession ticket (remember to bring your staff/student ID or Alumni card with you when you attend).</p><p><strong>Cost for Hands On Workshops</strong><br />$12.00 attendee/parent/carer ticket<br />$17.00 child ticket (includes workshop kit) <br />$5.00 additional workshop kit (for parents/carers that wish to participate in the hands on component of the workshop)<br /></p><div>All public visits must be booked and prepaid online through <a href="https://onestop.westernsydney.edu.au/OneStopWeb/ObsEvents/menu" target="_blank">OneStop</a> (opens in a new window).</div><div><em><strong>Sorry, we do not accept cash, cheque or eftpos.</strong></em></div><p>Payment is non refundable, however if you notify us via email <a href="mailto:r.sommer@westernsydney.edu.au?subject=Transfer%20Booking">r.sommer@westernsydney.edu.au</a>, a minimum of 8 hours prior to the start time for the program, we can transfer your booking to another event. Please include the booking reference or receipt number&nbsp;&nbsp;in your email.<br />Your transfer request email will be responded to within a week to confirm your new booking date.<br />Refer to our <a href="https://www.westernsydney.edu.au/observatorypenrith/penrith_observatory/cancellation_policy" title="Cancellation and Transfer Policy">Cancellation and Transfer Policy</a> for more information.</p>
+
+               
+    </div>
+     
+ </div>
+   
+<!-- ------------------------------------------------------/Bookings------------------------------------------------ -->  
+
+<!-- ------------------------------------------------------Location and Parking------------------------------------------------ -->
+
+ <div class="LAP">
+     
+     <div class="container text-left" id="top-padded">
+
+	<div>
+	<h1>Location</h1>
+	<p>Building AO<br>
+	Western Sydney University, Werrington North Campus<br>
+	Great Western Highway, Werrington<br>
+    NSW AUSTRALIA</p>
+        
+    <h1>Map</h1>
+	
+	<div id="googleMap" style="height:300px;" width=100%></div>
+        <script>
+			function mymap()
+			{
+				
+                var mapZoom = {
+                    center: new google.maps.LatLng(-33.7594, 150.7471), 
+                    zoom: 13
+                }
+                
+                
+				
+                var mapArea = document.getElementById("googleMap");
+                var map = new google.maps.Map(mapArea, mapZoom);
+                
+                 var marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(-33.7614718, 150.7417022),
+                    map: map
+                });
+			}
+		</script>
+	</div>
+        <br>     
+        
+</div>
+     
+ </div>
+   
+<!-- ------------------------------------------------------/Location and Parking------------------------------------------------ --> 
+
+<!-- ------------------------------------------------------Contact------------------------------------------------ -->
+
+ <div class="contactDiv">
+     
+     <div class="container text-left" id="top-padded">
+   
+	<div>
+	
+	<i class="fas fa-phone"></i> (02) 4736 0135
+	</br>
+	<i class="fas fa-envelope"></i> penrithobservatory@westernsydney.edu.au
+	</br>
+	<i class="fas fa-globe-asia"></i> westernsydney.edu.au/observatory
+	</br>
+	<i class="fab fa-facebook-square"></i>  facebook.com/WesternSydObs
+	</br>
+	<i class="fab fa-twitter-square"></i> @westernSydObs
+        <div>
+        <p></p><p style="text-align: left;">For more information, email <a href="mailto:penrithobservatory@westernsydney.edu.au?subject=Penrith%20Observatory%20WebEnq">Penrith Observatory,</a> <a href="mailto:r.sommer@westernsydney.edu.au?subject=Penrith%20Observatory%20WebEnq">Raelene Sommer</a> (Administrative Officer), <a href="mailto:m.filipovic@westernsydney.edu.au?subject=Penrith%20Observatory%20WebEnq">Professor Miroslav Filipovic</a> (Chair), <a href="mailto:n.tothill@westernsydney.edu.au?subject=Penrith%20Observatory%20WebEnq">Dr Nick Tothill </a>(Director) or <a href="mailto:A.DeHorta@westernsydney.edu.au?subject=Penrith%20Observatory%20WebEnq">Dr Ain De Horta</a> (Astronomer in Charge).</p>
+        </div>
+	</div>
+     
+    </div>
+     
+</div>
+   
+<!-- ------------------------------------------------------/Contact------------------------------------------------ --> 
+ </div>                                                      
+     
+         
+             
+                 
+                     
+                         
+                             
+                                 
+                                     
+                                         
+                                             
+                                                 
+                                                     
+                                                         
+                                                             
+                                                                 
+                                                                 
+                                                                           
+  
+    <script type="text/javascript">
+    
+    $('.slick-carousel').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    arrows:true
+    });
+        
+        
+    
+  </script>
+    
+</body>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC7iDp_-paH380yiOvSpvn9waMucvs96cE&callback=mymap"></script>
+
+</html>

@@ -1,0 +1,57 @@
+
+
+.navbar-expand-md {
+    background-color: #990033;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    top:0;
+    z-index: 100;
+}
+
+
+.container{
+    padding-top: 10px;   
+    overflow: hidden;
+}
+
+#top-padded{
+   padding-top: 81px;   
+   overflow: hidden; 
+}
+
+
+.slick-carousel{
+    padding-top: 71px; 
+    overflow: hidden; 
+}
+
+.slick-carousel img{
+    width: 100%;   
+}
+
+
+h4{
+    background-color: #990033;
+    color: white;
+    margin-bottom: auto;
+    margin-top: 5px;
+    text-align: center;
+}
+
+
+.btn-block{
+    color: white;
+    background-color: #990033;
+    margin-top: 5px;
+}
+
+.btn-block:visited{
+    color: white;
+    background-color: #990033;
+    margin-top: 5px;
+}
+
+.skyEventsDiv,.observatoryEventsDiv,.SED,.OED,.galleryDiv,.schoolProgramsDiv,.groupProgramsDiv,.aboutDiv,.bookingsDiv,.LAP,.contactDiv{
+    display: none;
+}
